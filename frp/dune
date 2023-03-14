@@ -1,0 +1,9 @@
+(library
+ (name frp)
+ (modules frp)
+ (libraries eio))
+
+(executable
+ (name main)
+ (modules main)
+ (libraries frp eio_main))
